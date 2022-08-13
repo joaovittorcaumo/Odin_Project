@@ -1,0 +1,47 @@
+/*THIS WILL CONECT WITH THE index.html*/
+
+
+/* CSS BASICALLY STYLISH THE HTML FILES WE ALREADY CREATED.
+IN THIS CSS FILE WE WILL LEARN ABOUT SELECTORS:
+        Selectors refer to HTML elements to wich CSS apply
+        They are wat is actally being selected for each rule
+*/
+*{
+    color: purple;/* This is an universal selector(*), and it wold turn every element in a html to purple*/
+}
+div{
+    color:aqua;/*This would make all the elements inbetween "div" in the html file have the aqua color*/
+}
+.alert-text {
+    color:crimson; /*This is a class selector, and will only change the color of the specified div class="alert-text"*/
+}
+#title {
+    background-color: green; /* ID selectors work similar to class selectors, but an element can only have 1 ID*/
+}
+.read,
+.unread {
+    color: antiquewhite;
+    background-color: aquamarine; /*this is a way to group two classes that would use the same color*/
+}
+/*Another way of using selectors is to chain them as a list without any separations: */
+.subsection.header {
+    color: thistle;
+}
+/*Descendant Combinator: 
+    In the descendant combinator, it's only possible to select a "child" element, if it matches
+    the ancestor element
+Examples in the html file*/
+.ancestor .contents {
+    color: yellowgreen;
+}
+
+
+
+
+
+
+
+
+
+
+

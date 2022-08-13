@@ -1,0 +1,30 @@
+/*THIS WILL CONECT WITH THE test.html*/
+
+/*PROPERTIES TO GET STARTED WITH
+    Some CSS properties that its going to be used all the time:
+*/
+/*Typography Basics and Text-Align
+    font-family can be a single vale, or a list of values that will determine what font an element
+    uses.
+    If a browser cant support the given font, it will use the next one in the list.
+    That is why its best practice to use a list of valures for this property.
+    For example:  
+*/
+div {
+    font-size: "Tomes New Roman", sans-serif;
+    font-size: 22px; /*As the name suggests, a font size gives a different size to a determined string */
+    font-weight: 500; /*The font-weight affects the boldness of the text*/
+    text-align: center;/*text-align will align text horizontally within an element.*/
+}
+
+/*IMAGE HEIGHT AND WIDTH
+    If you want to mantain the images proportion while changing its width or height, you can set
+    one of the two values to auto
+    Example:
+*/
+img {
+    height: auto;
+    width: 500px;
+}
+
+
