@@ -1,0 +1,15 @@
+/* In this session we'll learn about the box model and how to make sure that elements are just
+the right size with margin, padding and borders
+*/
+/*The box model:
+    Everything in a webpage is a box, this box can have other boxes in them. Here is an example:
+*/
+*{
+    border: 2px solid red;
+}
+/*The only complication here is that it's possible to manipulate the size of the boxes
+and the space between them, using padding, margin and border.
+    padding: increases the space between the edge  and the content inside
+    margin: increases the space between a box and other boxes
+    border: adds space(even if its only a pixel or two) between the margin and the padding
+*/
