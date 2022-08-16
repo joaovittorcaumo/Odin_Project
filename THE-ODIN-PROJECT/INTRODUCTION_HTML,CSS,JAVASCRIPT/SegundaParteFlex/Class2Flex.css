@@ -1,0 +1,6 @@
+/*
+Hot to change the direction
+*/
+.flex-container{
+    flex-direction: column;/*Vertical*/
+}
