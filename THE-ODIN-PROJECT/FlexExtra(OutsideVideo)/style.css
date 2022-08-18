@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.containers{
+    background-color:lawngreen;
+    padding: 10px;
+    margin: 50px;
+    display: flex;
+    /*justify-content: center;*//*Define how the items will be presented.*/
+    /*justify-content: center;*//*It separetas all the itens within the same space in the container*/
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;/*As justify-content, you decide where in a container the items will be. But with align items, you can determine each item on its on*/
+}
+/*If you have an overlap of flex items, you can use flex-wrao: wrap to automatically organize them inside the box.*/
+
+.item{
+    background-color: blue;
+    color: blanchedalmond;
+    font-size: 35px;
+    padding: 20px;/*Defines the size of the item.*/
+    margin: 10px;/*Gives space inbetween the values*/
+    flex-grow: 1;/*Set the items to use all the space they can*/
+}
+.items-1{
+    order: 3;
+}
+.items-2{
+    order: 4;/*changes the order of the items within a container*/
+}
+.items-3{
+    order: 0;
+}
+
+.items-4{
+    order: 1;
+    /*align-self:flex-start;/*It changes the position of only item 4 inside of the container*/
+    flex-grow: 3;/*Sets this element to be 3 times bigger than the rest*/
+}
+.items-5{
+    order: 2;
+    flex-basis: 34%;/*Flex-basis sets the percentage of wich you want a specific item to be.
+    In this case, item 5 will take 34% of the available space*/
+}
