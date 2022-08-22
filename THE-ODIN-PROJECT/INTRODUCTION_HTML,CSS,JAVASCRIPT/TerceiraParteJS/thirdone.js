@@ -28,7 +28,7 @@ REMOVE ELEMENTS
     parentnode.removeChild(child)
 TESTING:
 */
-const div = document.createElement('div');
+/*const div = document.createElement('div');
 
 div.style.color = 'blue';
 
@@ -44,4 +44,51 @@ content.classList.add('p');
 content.textContent = 'this is actually strange';
 
 container.append(content);
-container.append(div)
+container.append(div)*/
+/*-------------------------------------------------------------------------------------------*/
+const body = document.body; // Element we are going to change
+//body.append("Hello world");//Use this to append string to your page
+const div = document.createElement('div');
+//div.innerText = "Hello World";//ADDS TEXT TO AN ELEMENT.
+//div.innerHTML = "<p>HELLO WORLD</p>"//this lets you eddit an html 
+const p = document.createElement('p');
+const h3 = document.createElement('h3');
+const h1 = document.createElement('h1');
+const p2 = document.createElement('p')
+const btn = document.createElement('button')
+
+btn.style.color = "blue";
+btn.innerText = "CLICK HERE";
+btn.onclick = () =>  alert("Hello World");
+
+
+p.style.color = "red";
+p.innerText = "Hey, im red!";
+h3.style.color = "blue";
+h3.innerText ="Im a blue h3";
+body.append(btn);
+body.append(p);
+body.append(h3)
+div.style.borderColor = "black";
+div.style.backgroundColor = "pink";
+h1.innerText = "I'm in a div";
+p2.style.color = "black";
+p2.innerText = "ME TOO!"
+div.append(h1);
+div.append(p2);
+body.append(div);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
